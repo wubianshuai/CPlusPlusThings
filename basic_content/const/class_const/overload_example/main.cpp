@@ -8,5 +8,6 @@ int main() {
   a.add(10);
   //     const Apple b(3);
   //     b.add(); // error
+  cout<<"test";
   return 0;
 }
