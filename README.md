@@ -185,21 +185,21 @@ docker pull xingfranics/cplusplusthings:latest
 
 - [时钟++运算符重载.cpp](./practical_exercises/key_exercises/clock.cpp)前缀重载和后缀重载
 
-- [运算符重载之强制转换.cpp](./practical_exercises/key_exercises/operator_cast.cpp)
+- [运算符重载之强制转换.cpp](./practical_exercises/key_exercises/operator_cast.cpp)  轮子不太行 一般不用
 
-- [重载圆括号的时钟.cpp](./practical_exercises/key_exercises/operator_circle.cpp)
+- [重载圆括号的时钟.cpp](./practical_exercises/key_exercises/operator_circle.cpp) 不知道有什么用 重载括号
 
-- [函数模板.cpp](./practical_exercises/key_exercises/func_temp.cpp)
+- [函数模板.cpp](./practical_exercises/key_exercises/func_temp.cpp)比较重要 模板函数 
 
-- [动态数组.cpp](./practical_exercises/key_exercises/array.cpp)
+- [动态数组.cpp](./practical_exercises/key_exercises/array.cpp) const 指针数组比较难
 
-- [字典插入与查找.cpp](./practical_exercises/key_exercises/map_insert_look.cpp)
+- [字典插入与查找.cpp](./practical_exercises/key_exercises/map_insert_look.cpp) map key value一对一
 
-- [异常捕获.cpp](./practical_exercises/key_exercises/try.cpp)
+- [异常捕获.cpp](./practical_exercises/key_exercises/try.cpp)很关键 捕获异常
 
-- [类模板之栈.cpp](./practical_exercises/key_exercises/stack.cpp)
+- [类模板之栈.cpp](./practical_exercises/key_exercises/stack.cpp) 模版的创建对象不一样 数组和普通对象不一样
 
-- [类模板特化之数组.cpp](./practical_exercises/key_exercises/array_template.cpp)
+- [类模板特化之数组.cpp](./practical_exercises/key_exercises/array_template.cpp)太变态了 基本没有用
 
 - [继承与封装.cpp](./practical_exercises/key_exercises/override.cpp)
 
