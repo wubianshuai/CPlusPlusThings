@@ -16,7 +16,11 @@ public:
   B(int k) {
     cout << "int B constructor..." << endl;
     for (int i = 0; i < 10; i++) {
-      pb[i] = new double[20000000];
+      if(i==3)
+        pb[i] = new double[0];
+      else{
+        pb[i] = new double[20000000];
+      }
       if (pb[i] == 0)
         throw i;
       else

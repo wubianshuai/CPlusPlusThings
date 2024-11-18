@@ -15,7 +15,7 @@ int main() {
   /*char c[10];
   char d;
   cin.getline(c,10);
-  cin.get(d);
+  cin.get(d);0
       cout<<c<<endl<<int(d);//输入：12345[enter]a[enter] 输出：12345【换行】97*/
   // cin.getline(arrayname,size,s)与cin.gei(arrayname,size,s)的区别
   /*

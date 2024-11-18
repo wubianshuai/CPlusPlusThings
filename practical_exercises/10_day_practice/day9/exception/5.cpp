@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-void handler(int n) throw(int, char, double) {
+void handler(int n) {
   if (n == 1)
     throw n;
   if (n == 2)
@@ -13,7 +13,7 @@ void handler(int n) throw(int, char, double) {
 int main() {
   cout << "Before handler..." << endl;
   try {
-    handler(1);
+    handler(2);
   } catch (int i) {
     cout << "catch an integer..." << endl;
   } catch (char c) {

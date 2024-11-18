@@ -1,19 +1,36 @@
-#include <stdio.h>
-int main()
-{
- 
-   // int x = 10;
-   // int *y = &x;
- 
-   // printf("x: %d Address of x: %d\n", x, &x);
-   // printf("y: %d \n", y);
-   // printf("Address of y: %d \n", &y);
-   // printf("Value at address in y: %d\n", *y);
-   // return 0;
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <string>
 
-  printf("*\n");
-  printf("***\n");
-  printf("*****\n");
-  printf("*******");
-   
+template <typename T>
+class Sorter {
+private:
+    std::vector<T> data;
+
+public:
+    Sorter(const std::vector<T>& items) : data(items) {}
+
+    void Sort() {
+        std::sort(data.begin(), data.end(), std::greater<T>());
+    }
+
+    void Display() {
+        for (const T& item : data) {
+            std::cout << item << " ";
+        }
+        std::cout << std::endl;
+    }
+};
+
+int main() {
+    Sorter<int> intSorter({3, 1, 4, 1, 5, 9});
+    intSorter.Sort();
+    intSorter.Display();
+
+    Sorter<std::string> stringSorter({"apple", "banana", "cherry"});
+    stringSorter.Sort();
+    stringSorter.Display();
+
+    return 0;
 }

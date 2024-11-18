@@ -165,25 +165,25 @@ docker pull xingfranics/cplusplusthings:latest
 
 - [day3-函数1](practical_exercises/10_day_practice/day3) 完成 更改完记得保存
 
-- [day4-函数2](practical_exercises/10_day_practice/day4) 完成 
+- [day4-函数2](practical_exercises/10_day_practice/day4) 完成
 
-- [day5-继承多态](practical_exercises/10_day_practice/day5)
+- [day5-继承多态](practical_exercises/10_day_practice/day5) 重要的使用什么方式继承如public,protect,private的使用权限  虚继承的构造顺序比较奇怪
 
-- [day6-虚函数与抽象类](practical_exercises/10_day_practice/day6)
+- [day6-虚函数与抽象类](practical_exercises/10_day_practice/day6)之前学习过了 完成
 
-- [day7-运算符重载](practical_exercises/10_day_practice/day7)
+- [day7-运算符重载](practical_exercises/10_day_practice/day7) 感觉用处不大 是轮子 
 
-- [day8-模版与STL](practical_exercises/10_day_practice/day8)
+- [day8-模版与STL](practical_exercises/10_day_practice/day8) 模版还行 STL感觉还行 感觉好复杂
 
-- [day9-异常](practical_exercises/10_day_practice/day9)
+- [day9-异常](practical_exercises/10_day_practice/day9) 完成
 
-- [day10-文件与流](practical_exercises/10_day_practice/day10)
+- [day10-文件与流](practical_exercises/10_day_practice/day10)   完成
 
 #### [重点实战练习](./practical_exercises/key_exercises/)
 
-- [中括号重载.cpp](./practical_exercises/key_exercises/bracket_overloading.cpp)
+- [中括号重载.cpp](./practical_exercises/key_exercises/bracket_overloading.cpp) 基本不会用到 使用函数代替 很繁琐 不好用 不宜读
 
-- [时钟++运算符重载.cpp](./practical_exercises/key_exercises/clock.cpp)
+- [时钟++运算符重载.cpp](./practical_exercises/key_exercises/clock.cpp)前缀重载和后缀重载
 
 - [运算符重载之强制转换.cpp](./practical_exercises/key_exercises/operator_cast.cpp)
 

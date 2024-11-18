@@ -10,6 +10,9 @@ int main() {
   } catch (double i) { //仅此与例10.1不同
     cout << "4--In catch block1 .. an int type is.." << i << endl;
   }
+  catch (int i) { //仅此与例10.1不同
+    cout << "int--In catch block1 .. an int type is.." << i << endl;
+  }
   cout << "5--After Catch...";
   
   return 0;

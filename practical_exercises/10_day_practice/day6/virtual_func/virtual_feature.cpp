@@ -12,12 +12,12 @@ public:
 };
 class C : public B {
 public:
-  void f(int i) { cout << "C::f()" << endl; }
+  // void f(int i) { cout << "C::f()" << endl; }
 };
 //一旦将某个成员函数声明为虚函数后，它在继承体系中就永远为虚函数了
 class D : public C {
 public:
-  void f(int) { cout << "D::f()" << endl; }
+  // void f(int) { cout << "D::f()" << endl; }
 };
 int main() {
   A *pA, a;

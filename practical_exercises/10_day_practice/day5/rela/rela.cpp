@@ -28,26 +28,34 @@ int main() {
   a1 = b1;
   cout << a1.getA() << endl;
   cout << b1.getA() << endl;
+  cout << "分割1"<<endl;
   a1.setA(10);
   cout << a1.getA() << endl;
   cout << b1.getA() << endl;
+   cout << "分割2"<<endl;
   //把派生类对象的地址赋值给基类指针。
   pA = &b1;
   pA->setA(20);
   cout << pA->getA() << endl;
   cout << b1.getA() << endl;
+   cout << "分割3"<<endl;
   //用派生类对象初始化基类对象的引用。
   A &ra = b1;
   ra.setA(30);
   cout << pA->getA() << endl;
   cout << b1.getA() << endl;
+  cout << "分割4"<<endl;
   b1.setA(7);
   cout << b1.getA() << endl;
+  cout << "分割5"<<endl;
+
   f1(b1, 100);
-  cout << "1111111111" << endl;
-  cout << b1.getA() << endl; // 7
+  cout << b1.getA() << endl; 
   f2(&b1, 200);
+  
   cout << b1.getA() << endl;
+  cout << "分割6"<<endl;
+  
   f3(b1, 300);
   cout << b1.getA() << endl;
   

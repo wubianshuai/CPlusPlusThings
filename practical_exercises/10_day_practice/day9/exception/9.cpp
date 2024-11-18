@@ -25,9 +25,9 @@ int main() {
     cout << p.Where() << endl;
   } catch (FileNotFound p) {
     cout << p.Where() << endl;
-  } catch (FileSysException p) {
-    cout << p.Where() << endl;
   } catch (BasicException p) {
+    cout << p.Where() << endl;
+  } catch (FileSysException p ) {
     cout << p.Where() << endl;
   }
   try {
