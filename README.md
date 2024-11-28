@@ -201,9 +201,9 @@ docker pull xingfranics/cplusplusthings:latest
 
 - [类模板特化之数组.cpp](./practical_exercises/key_exercises/array_template.cpp)太变态了 基本没有用
 
-- [继承与封装.cpp](./practical_exercises/key_exercises/override.cpp)
+- [继承与封装.cpp](./practical_exercises/key_exercises/override.cpp) 完成
 
-- [读写文件综合题.cpp](./practical_exercises/key_exercises/read_file.cpp)
+- [读写文件综合题.cpp](./practical_exercises/key_exercises/read_file.cpp)完成
 
 - [输入输出运算符重载.cpp](./practical_exercises/key_exercises/io_operator_overload.cpp)
 
@@ -229,17 +229,16 @@ C++2.0 是一个简称，意为「现代 C++」，包括 C++11/14/17/20。
   vector<list<int>> // before c++ 11 error error: ‘>>’ should be ‘> >’ within a nested template argument list,c++11后可以正常通过
   ```
 
-- [nullptr and nullptr_t](./cpp2.0/cpp11/nullptr.cpp)
+- [nullptr and nullptr_t](./cpp2.0/cpp11/nullptr.cpp) 指针为空指针，C++11 新引入的，用来代替 NULL
 
-- [Automatic Type Deduction with auto](./cpp2.0/cpp11/auto.cpp)
+- [Automatic Type Deduction with auto](./cpp2.0/cpp11/auto.cpp) auto 关键字可以自动识别变量类型，C++11 新引入的
 
-- [Uniform Initialization ](./cpp2.0/cpp11/uniform_initialization.cpp)
+- [Uniform Initialization ](./cpp2.0/cpp11/uniform_initialization.cpp) 不懂干啥的很奇怪  
+- [initializer_list](./cpp2.0/cpp11/initializer.cpp) 同样很奇怪
 
-- [initializer_list](./cpp2.0/cpp11/initializer.cpp)
+- [explicit for ctors taking more than one argument](./cpp2.0/cpp11/explicit.cpp)explici 不允许隐式t 转换
 
-- [explicit for ctors taking more than one argument](./cpp2.0/cpp11/explicit.cpp)
-
-- [range-based for statement](./cpp2.0/cpp11/auto.cpp)
+- [range-based for statement](./cpp2.0/cpp11/auto.cpp) 对于容器而言，可以这样写：for循环中，自动遍历容器中的元素
 
   ```cpp
   for(decl:col) {
@@ -247,7 +246,7 @@ C++2.0 是一个简称，意为「现代 C++」，包括 C++11/14/17/20。
   }
   ```
 
-- [=default,=delete](./cpp2.0/cpp11/default_delete.cpp)
+- [=default,=delete](./cpp2.0/cpp11/default_delete.cpp) 用处不大
 
   如果你自行定义了一个 `ctor`, 那么编译器就不会给你一个 `default ctor`
   如果强制加上 `=default`, 就可以重新获得并使用 `default ctor`.
@@ -257,19 +256,19 @@ C++2.0 是一个简称，意为「现代 C++」，包括 C++11/14/17/20。
   - [alias.cpp](./cpp2.0/cpp11/alias.cpp)
   - [template_template.cpp](./cpp2.0/cpp11/template_template.cpp)
 
-- [template template parameter](./cpp2.0/template_template.cpp)
+- [template template parameter](./cpp2.0/cpp11/template_template.cpp)
 
 - [type alias](./cpp2.0/cpp11/type_alias.cpp)
 
-- [noexcept](./cpp2.0/cpp11/noexcept.cpp)
+- [noexcept](./cpp2.0/cpp11/noexcept.cpp) 挺重要 异常有关系
 
-- [override](./cpp2.0/cpp11/override.cpp)
+- [override](./cpp2.0/cpp11/override.cpp) 挺重要 继承有关系
 
-- [final](./cpp2.0/cpp11/final.cpp)
+- [final](./cpp2.0/cpp11/final.cpp) 完成
 
-- [decltype](./cpp2.0/cpp11/decltype.cpp)
+- [decltype](./cpp2.0/cpp11/decltype.cpp) 看不懂
 
-- [lambda](./cpp2.0/cpp11/lambda.cpp)
+- [lambda](./cpp2.0/cpp11/lambda.cpp) 重要 完成
 
 - [Rvalue reference](./cpp2.0/cpp11/rvalue.cpp)
 
