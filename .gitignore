@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 com.sh
 bazel-CPlusPlusThings
 bazel-bin
 bazel-out
 bazel-testlogs
 bazel-cplusplus_bazel
+=======
+com.sh
+bazel-CPlusPlusThings
+bazel-bin
+bazel-out
+bazel-testlogs
+bazel-cplusplus_bazel
+>>>>>>> 190428d20286416d8ae3dad8e4a7f7d467e918d5
 .vscode

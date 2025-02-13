@@ -28,7 +28,11 @@ int main(int argc, char const *argv[]) {
   vector<Person>::iterator
       pos; //声明一个迭代器，来访问vector容器，作用：遍历或者指向vector容器的元素
   char ch;
+<<<<<<< HEAD
   ofstream out("d:/person.dat", ios::out | ios::app | ios::binary);
+=======
+  ofstream out("./person.dat", ios::out | ios::app | ios::binary);
+>>>>>>> 190428d20286416d8ae3dad8e4a7f7d467e918d5
   char Name[20], ID[18], Addr[20];
   int Age;
   cout << "------输入个人档案------" << endl << endl;
@@ -47,7 +51,11 @@ int main(int argc, char const *argv[]) {
     cin >> ch;
   } while (ch == 'y');
   out.close();
+<<<<<<< HEAD
   ifstream in("d:/person.dat", ios::in | ios::binary); // L9
+=======
+  ifstream in("./person.dat", ios::in | ios::binary); // L9
+>>>>>>> 190428d20286416d8ae3dad8e4a7f7d467e918d5
   Person s;
   in.read((char *)&s, sizeof(s));
   while (!in.eof()) {

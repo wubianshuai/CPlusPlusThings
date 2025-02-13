@@ -25,10 +25,17 @@ int main() {
     cout << p.Where() << endl;
   } catch (FileNotFound p) {
     cout << p.Where() << endl;
+<<<<<<< HEAD
   } catch (FileSysException p) {
     cout << p.Where() << endl;
   } catch (BasicException p) {
     cout << p.Where() << endl;
+=======
+  } catch (BasicException p) {
+    cout << p.Where() << endl;
+  } catch (FileSysException p ) {
+    cout << p.Where() << endl;
+>>>>>>> 190428d20286416d8ae3dad8e4a7f7d467e918d5
   }
   try {
     //        .....  //程序代码

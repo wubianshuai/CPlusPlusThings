@@ -1,7 +1,10 @@
 //
 // Created by light on 19-11-5.
 //
+<<<<<<< HEAD
 
+=======
+>>>>>>> 190428d20286416d8ae3dad8e4a7f7d467e918d5
 #include <iostream>
 #include <thread>
 #include <unistd.h>

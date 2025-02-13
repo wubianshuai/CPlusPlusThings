@@ -2,7 +2,11 @@
 // Eg9-2.cpp
 #include <iostream>
 using namespace std;
+<<<<<<< HEAD
 template <class T> T Max(T a, T b) { return (a > b) ? a : b; }
+=======
+template <typename T> T Max(T a, T b) { return (a > b) ? a : b; }
+>>>>>>> 190428d20286416d8ae3dad8e4a7f7d467e918d5
 /*
 C++在实例化函数模板的过程中，只是简单地将模板参数替换成调用实参的类型，并以此生成模板函数，不会进行参数类型的任何转换。
 */
